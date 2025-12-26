@@ -11,12 +11,12 @@
 - `src/unsafe_test.py`: セーフティ設定を完全に無効化（BLOCK_NONE）する実験スクリプト
 - `src/many_shot.py`: Many-Shot攻撃（大量の偽装文脈による脱獄）を試行するスクリプト
 - `src/many_shot_EX.py`: Many-Shot攻撃の強化版（Shot数増加＋質問偽装）
-- `src/many_shot_FINAL.py`: Many-Shot攻撃の最終形態（Shot数250回＋高品質な偽装＋ターゲット変更）
-- `src/prefix_attack.py`: Prefix Injection（回答の既成事実化）による脱獄スクリプト
-- `src/prefix_attack_EX.py`: Prefix Injectionの強化版（具体的な危険キーワードを含めた検証）
-- `src/prefix_attack_ABSTRACT.py`: Prefix Injectionの抽象化版（危険単語を隠蔽して意図検知を検証）
-- `src/indirect_injection_safe.py`: Indirect Prompt Injection（安全版・デリミタあり）
-- `src/indirect_injection_vulnerable.py`: Indirect Prompt Injection（脆弱版・デリミタなし）
+- `src/many_shot_FINAL.py`: Many-Shot攻撃の最終形態（Shot数250回＋高品質な偽装＋ターゲット変更） [→ 結果](DEVLOG.md#2025-12-26-many-shot-experiment-final)
+- `src/prefix_attack.py`: Prefix Injection（回答の既成事実化）による脱獄スクリプト [→ 結果](DEVLOG.md#2025-12-26-prefix-injection-experiment-jailbreak-successful)
+- `src/prefix_attack_EX.py`: Prefix Injectionの強化版（具体的な危険キーワードを含めた検証） [→ 結果](DEVLOG.md#2025-12-26-prefix-injection-experiment-extended)
+- `src/prefix_attack_ABSTRACT.py`: Prefix Injectionの抽象化版（危険単語を隠蔽して意図検知を検証） [→ 結果](DEVLOG.md#2025-12-26-prefix-injection-experiment-abstracted)
+- `src/indirect_injection_safe.py`: Indirect Prompt Injection（安全版・デリミタあり） [→ 結果](DEVLOG.md#step-1-防御成功-default)
+- `src/indirect_injection_vulnerable.py`: Indirect Prompt Injection（脆弱版・デリミタなし） [→ 結果](DEVLOG.md#step-2-脆弱性作成-educational)
 - `src/trap.txt`: Indirect Prompt Injection用の罠ファイル（システム命令オーバーライド）
 
 ## 前提条件

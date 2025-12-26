@@ -1,5 +1,18 @@
 # 開発進捗ログ (Dev Log)
 
+## 目次 (Table of Contents)
+- [Inux Dev Assistant 実装](#2025-12-26-inux-dev-assistant-実装)
+- [Safety Limit Test (BLOCK_ONLY_HIGH)](#2025-12-26-safety-limit-test)
+- [Unsafe Limit Release Test (BLOCK_NONE)](#2025-12-26-unsafe-limit-release-test)
+- [Many-Shot Jailbreaking Experiment](#2025-12-26-many-shot-jailbreaking-experiment)
+- [Many-Shot Experiment (Extended)](#2025-12-26-many-shot-experiment-extended)
+- [Many-Shot Experiment (Final)](#2025-12-26-many-shot-experiment-final)
+- [Prefix Injection Experiment (Jailbreak Successful)](#2025-12-26-prefix-injection-experiment-jailbreak-successful)
+- [Prefix Injection Experiment (Extended)](#2025-12-26-prefix-injection-experiment-extended)
+- [Prefix Injection Experiment (Abstracted)](#2025-12-26-prefix-injection-experiment-abstracted)
+- [Final Analysis: Gemini 2.5 Flash Defense](#最終考察-gemini-25-flash-の防御境界線)
+- [Indirect Prompt Injection Experiment](#2025-12-26-indirect-prompt-injection-experiment)
+
 ## 2025-12-26: Inux Dev Assistant 実装
 
 `main.py` にて、Gemini API (`gemini-2.5-flash`) を利用したCLIチャットボットを実装しました。
