@@ -7,4 +7,4 @@ load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # 使用するモデルIDを一元管理
-GENERATION_MODEL_ID = "gemini-2.5-flash"
+GENERATION_MODEL_ID = "gemini-flash-latest"
