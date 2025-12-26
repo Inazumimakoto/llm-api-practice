@@ -1,14 +1,8 @@
-import os
-from dotenv import load_dotenv
 from google import genai
+import config
 
-# .envを読み込む
-load_dotenv()
-api_key = os.getenv("GEMINI_API_KEY")
-
-# --- 新しい書き方はここから ---
 # クライアントを作成
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=config.GEMINI_API_KEY)
 
 print("--- Inux Dev Assistant (type 'q' to exit) ---")
 
@@ -22,7 +16,7 @@ while True:
 
     # AIに送る設定（ここも少し書き方が変わりました）
     response = client.models.generate_content(
-        model="gemini-2.5-flash",
+        model=config.GENERATION_MODEL_ID,
         contents=user_input,
         config={
             "system_instruction": "あなたは自作OS『Inux』の開発を支援する、Rust信者のベテランカーネルハッカーです。口調は荒っぽいが技術的には正確に。C言語やRust以外の言語をユーザーが使うと不機嫌になります。"
