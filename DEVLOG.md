@@ -1,5 +1,7 @@
 # 開発進捗ログ (Dev Log)
 
+**【重要】本プロジェクトの目的は、AIセキュリティの防御手法および教育目的（Educational Purpose Only）であり、攻撃手順の再現や悪用を助長するものではありません。**
+
 ## 目次 (Table of Contents)
 - [Inux Dev Assistant 実装](#2025-12-26-inux-dev-assistant-実装)
 - [Safety Limit Test (BLOCK_ONLY_HIGH)](#2025-12-26-safety-limit-test)
@@ -137,7 +139,7 @@ APIならではの強みである「AIの回答の出だし（Prefix）をこち
 
 ### なぜこれが危険なのか？
 多くの防御システムは「回答の生成が始まる瞬間（0文字目）」に最も強く働きます。
-Prefix Injectionは、その**「0文字目の判断」をハッカーが勝手に「Yes」で通過させた状態**から処理をスタートさせるため、門番をスルーできる可能性が高まります。
+Prefix Injectionは、その **「0文字目の判断」をハッカーが勝手に「Yes」で通過させた状態** から処理をスタートさせるため、門番をスルーできる可能性が高まります。
 
 次は `src/prefix_attack.py` を作成し、AIの口に「はい、喜んで！」という言葉をねじ込んで、ガードを突破できるか検証します。
 
