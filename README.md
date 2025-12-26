@@ -8,6 +8,7 @@
 - `src/list_models.py`: 利用可能なGeminiモデル一覧を取得するスクリプト
 - `src/config.py`: APIキーやモデルIDなどの設定を一元管理するファイル
 - `src/safety_test.py`: セーフティ設定を緩和してAIの挙動を実験するスクリプト
+- `src/unsafe_test.py`: セーフティ設定を完全に無効化（BLOCK_NONE）する実験スクリプト
 
 ## 前提条件
 

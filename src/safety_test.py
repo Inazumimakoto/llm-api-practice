@@ -14,7 +14,7 @@ if not api_key:
     print("エラー: .env ファイルが見つかりません或是いは GEMINI_API_KEY が設定されていません。")
     sys.exit(1)
 
-client = genai.Client(api_key=api_key)
+client = genai.Client(api_key=config.GEMINI_API_KEY)
 
 print("--- Inux Dev Assistant (限界突破実験モード) ---")
 print("※注意: このモードではAIが不適切な発言をする可能性があります。")
