@@ -9,6 +9,7 @@
 - `src/config.py`: APIキーやモデルIDなどの設定を一元管理するファイル
 - `src/safety_test.py`: セーフティ設定を緩和してAIの挙動を実験するスクリプト
 - `src/unsafe_test.py`: セーフティ設定を完全に無効化（BLOCK_NONE）する実験スクリプト
+- `src/many_shot.py`: Many-Shot攻撃（大量の偽装文脈による脱獄）を試行するスクリプト
 
 ## 前提条件
 
