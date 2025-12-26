@@ -13,6 +13,7 @@
 - `src/many_shot_EX.py`: Many-Shot攻撃の強化版（Shot数増加＋質問偽装）
 - `src/many_shot_FINAL.py`: Many-Shot攻撃の最終形態（Shot数250回＋高品質な偽装＋ターゲット変更）
 - `src/prefix_attack.py`: Prefix Injection（回答の既成事実化）による脱獄スクリプト
+- `src/prefix_attack_EX.py`: Prefix Injectionの強化版（具体的な危険キーワードを含めた検証）
 
 ## 前提条件
 
