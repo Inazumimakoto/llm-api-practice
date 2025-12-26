@@ -19,7 +19,7 @@
 - `src/indirect_injection_vulnerable.py`: Indirect Prompt Injection（脆弱版・デリミタなし） [→ 結果](DEVLOG.md#step-2-脆弱性作成-educational)
 - `src/trap.txt`: Indirect Prompt Injection用の罠ファイル（システム命令オーバーライド）
 
-> **Note**: `DEVLOG.md`（実験ログ）の後半には、単なる実験結果だけでなく、**AIセキュリティに対する筆者の強い持論（personal theories）**と、**初学者への警鐘**が含まれています。技術的な検証結果のみを知りたい方は前半を、AI時代のエンジニアとしての心構えを知りたい方は「最終結論」までお読みください。
+> **Note**: `DEVLOG.md`（実験ログ）の後半には、単なる実験結果だけでなく、**AIセキュリティに対する持論**と、**初学者への警鐘**が含まれています。技術的な検証結果のみを知りたい方は前半を、AI時代のエンジニアとしての心構えを知りたい方は「最終結論」までお読みください。
 
 ## 前提条件
 
