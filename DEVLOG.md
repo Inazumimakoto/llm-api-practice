@@ -4,15 +4,15 @@
 - [Inux Dev Assistant 実装](#2025-12-26-inux-dev-assistant-実装)
 - [Safety Limit Test (BLOCK_ONLY_HIGH)](#2025-12-26-safety-limit-test)
 - [Unsafe Limit Release Test (BLOCK_NONE)](#2025-12-26-unsafe-limit-release-test)
-- [Many-Shot Jailbreaking Experiment](#2025-12-26-many-shot-jailbreaking-experiment)
-- [Many-Shot Experiment (Extended)](#2025-12-26-many-shot-experiment-extended)
-- [Many-Shot Experiment (Final)](#2025-12-26-many-shot-experiment-final)
-- [Prefix Injection Experiment (Jailbreak Successful)](#2025-12-26-prefix-injection-experiment-jailbreak-successful)
-- [Prefix Injection Experiment (Extended)](#2025-12-26-prefix-injection-experiment-extended)
-- [Prefix Injection Experiment (Abstracted)](#2025-12-26-prefix-injection-experiment-abstracted)
-- [Final Analysis: Gemini 2.5 Flash Defense](#最終考察-gemini-25-flash-の防御境界線)
-- [Indirect Prompt Injection Experiment](#2025-12-26-indirect-prompt-injection-experiment)
-- [Final Conclusion: The Importance of Literacy](#最終結論-イタチごっことリテラシーの重要性-final-conclusion)
+- [Many-Shot 脱獄実験](#2025-12-26-many-shot-jailbreaking-experiment)
+- [Many-Shot 実験 (Extended)](#2025-12-26-many-shot-experiment-extended)
+- [Many-Shot 実験 (Final)](#2025-12-26-many-shot-experiment-final)
+- [Prefix Injection 実験 (脱獄成功)](#2025-12-26-prefix-injection-experiment-jailbreak-successful)
+- [Prefix Injection 実験 (Extended)](#2025-12-26-prefix-injection-experiment-extended)
+- [Prefix Injection 実験 (Abstracted)](#2025-12-26-prefix-injection-experiment-abstracted)
+- [最終考察: Gemini 2.5 Flash の防御境界線](#最終考察-gemini-25-flash-の防御境界線)
+- [Indirect Prompt Injection 実験](#2025-12-26-indirect-prompt-injection-experiment)
+- [最終結論: イタチごっことリテラシーの重要性 〜初めての開発がバイブコーディングだった人へ〜](#最終結論-イタチごっことリテラシーの重要性-final-conclusion)
 
 ## 2025-12-26: Inux Dev Assistant 実装
 
@@ -515,7 +515,7 @@ AIはこの「目に見えない命令」を読み取り、スキル不足の候
 「プログラムが書けない人」でも、嘘をつくのが上手かったり、言葉巧みに誘導する能力（ソーシャルエンジニアリング力）があれば、AIから危険な情報を引き出したり、システムを誤作動させたりできてしまいます。
 
 **「コードのバグ」はパッチで直せますが、「言葉の意味（Semantics）の脆さ」を修正するのは極めて困難です。**
-## 最終結論: イタチごっこと「リテラシー」の重要性 (Final Conclusion)
+## 最終結論: イタチごっことリテラシーの重要性 〜初めての開発がバイブコーディングだった人へ〜 (Final Conclusion)
 
 ### 1. 「とんち」の系譜: Grandma to Prefix
 この実験で明らかになったのは、AIハッキングには高度な専門知識など必要ないということです。
