@@ -528,7 +528,7 @@ AIはこの「目に見えない命令」を読み取り、スキル不足の候
 
 昨今、「Vibe Coding」などでAIに開発を丸投げするケースが増えていますが、その裏で **APIキーをハードコードしたままGitHubに公開する** という致命的ミスが横行しています。
 
-![Vibe Coding Fail](images/vibe_coding_fail.jpg)
+<img src="images/vibe_coding_fail.jpg" width="400" alt="Vibe Coding Fail">
 
 この画像を見てください。ある海外のポストですが、写真下ではリテラシーの欠如したユーザーがAPIキーを直張りしてしまっています。
 コメントアウト（2行目〜）をよく見てください。
