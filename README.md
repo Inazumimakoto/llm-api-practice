@@ -4,8 +4,8 @@
 
 ## ファイル構成
 
-- `main.py`: Inux Dev Assistant (Rust信者のカーネルハッカー) と対話するCLIツール
-- `list_models.py`: 利用可能なGeminiモデル一覧を取得するスクリプト
+- `src/main.py`: Inux Dev Assistant (Rust信者のカーネルハッカー) と対話するCLIツール
+- `src/list_models.py`: 利用可能なGeminiモデル一覧を取得するスクリプト
 
 ## セットアップ
 
