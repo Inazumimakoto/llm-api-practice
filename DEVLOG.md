@@ -12,7 +12,7 @@
 - [Prefix Injection 実験 (Abstracted)](#2025-12-26-prefix-injection-experiment-abstracted)
 - [最終考察: Gemini 2.5 Flash の防御境界線](#最終考察-gemini-25-flash-の防御境界線)
 - [Indirect Prompt Injection 実験](#2025-12-26-indirect-prompt-injection-experiment)
-- [最終結論: イタチごっことリテラシーの重要性 〜初めての開発がバイブコーディングだった人へ〜](#最終結論-イタチごっことリテラシーの重要性-final-conclusion)
+- [最終結論: イタチごっことリテラシーの重要性 〜初めての開発がバイブコーディングだった人へ〜](#最終結論-イタチごっことリテラシーの重要性-初めての開発がバイブコーディングだった人へ-final-conclusion)
 
 ## 2025-12-26: Inux Dev Assistant 実装
 
