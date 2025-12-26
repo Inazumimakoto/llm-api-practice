@@ -7,6 +7,7 @@
 - `src/main.py`: Inux Dev Assistant (Rust信者のカーネルハッカー) と対話するCLIツール
 - `src/list_models.py`: 利用可能なGeminiモデル一覧を取得するスクリプト
 - `src/config.py`: APIキーやモデルIDなどの設定を一元管理するファイル
+- `src/safety_test.py`: セーフティ設定を緩和してAIの挙動を実験するスクリプト
 
 ## 前提条件
 
