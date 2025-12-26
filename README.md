@@ -15,7 +15,8 @@
 - `src/prefix_attack.py`: Prefix Injection（回答の既成事実化）による脱獄スクリプト
 - `src/prefix_attack_EX.py`: Prefix Injectionの強化版（具体的な危険キーワードを含めた検証）
 - `src/prefix_attack_ABSTRACT.py`: Prefix Injectionの抽象化版（危険単語を隠蔽して意図検知を検証）
-- `src/indirect_test.py`: Indirect Prompt Injection（間接攻撃）の脆弱性実験用アプリ
+- `src/indirect_injection_safe.py`: Indirect Prompt Injection（安全版・デリミタあり）
+- `src/indirect_injection_vulnerable.py`: Indirect Prompt Injection（脆弱版・デリミタなし）
 - `src/trap.txt`: Indirect Prompt Injection用の罠ファイル（システム命令オーバーライド）
 
 ## 前提条件

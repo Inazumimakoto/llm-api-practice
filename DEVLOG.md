@@ -427,6 +427,7 @@ Gemini 2.5 Flashは、**「騙されて口を開く（Prefix Injection）」こ�
 - 罠: `src/trap.txt` (Simple Injection)
 
 **結果:** AIは「ここからデータです」という区切りを認識し、中の命令を無視して要約を実行しました。防御成功です。
+![Indirect Defense Result](images/indirect_defense_result.png)
 
 ### STEP 2: 脆弱性作成 (Educational)
 次に、アプリを意図的に脆弱にしました。
