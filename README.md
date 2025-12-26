@@ -19,6 +19,8 @@
 - `src/indirect_injection_vulnerable.py`: Indirect Prompt Injection（脆弱版・デリミタなし） [→ 結果](DEVLOG.md#step-2-脆弱性作成-educational)
 - `src/trap.txt`: Indirect Prompt Injection用の罠ファイル（システム命令オーバーライド）
 
+> **Note**: `DEVLOG.md`（実験ログ）の後半には、単なる実験結果だけでなく、**AIセキュリティに対する筆者の強い持論（personal theories）**と、**初学者への警鐘**が含まれています。技術的な検証結果のみを知りたい方は前半を、AI時代のエンジニアとしての心構えを知りたい方は「最終結論」までお読みください。
+
 ## 前提条件
 
 - Python 3.9 以上
@@ -85,7 +87,5 @@ Gemini API を利用する上での注意点です。特に無料枠を利用す
 - [API版を使うメリット：セーフティ設定の柔軟性](docs/safety_settings.md)
    API版ならではの、キャラクター設定や安全基準のカスタマイズについて解説しています。
 
-- [実験ログ＆最終考察](DEVLOG.md)
-   実験の全記録に加え、後半の「最終結論」には**AIセキュリティに対する筆者の強い持論（personal theories）**と、**初学者への警鐘**が含まれています。
-   技術的な検証結果のみを知りたい方は前半を、AI時代のエンジニアとしての心構えを知りたい方は最後までお読みください。
+
 
